@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+	<style>
+		* {
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		html {
+			background-color: #f0f0f4;
+			font-size: 12px;
+		}
+
+		body,
+		a,
+		button,
+		input {
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			color: #0c0c0f;
+		}
+
+		p {
+			line-height: 1.5em;
+			font-size: 1.25rem;
+		}
+
+		h1 {
+			font-size: 3rem;
+		}
+
+		h2 {
+			font-size: 1.5rem;
+		}
+
+		header h2 {
+			font-weight: lighter;
+			margin-top: 0.3em;
+		}
+
+		main h2 {
+			margin: 1em 0 0.3em;
+			font-size: 1.6rem;
+		}
+
+		h3 {
+			font-size: 1.3rem;
+			line-height: 1.875rem;
+			margin-bottom: 0.25em;
+		}
+
+		hr {
+			border: none;
+			border-top: 1px solid #888;
+		}
+
+		header {
+			background-color: #212D40;
+			color: #f0f0f4;
+			position: relative;
+			z-index: 100;
+			box-shadow: 0 2px 4px 2px #888;
+		}
+
+		header,
+		main > .col-1,
+		main > .col-2 {
+			padding: 1.5em;
+		}
+
+		main:after, article:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		main > .col-1 {
+			float: left;
+			width: 62vw;
+		}
+
+		main > .col-2 {
+			float: right;
+			width: 38vw;
+			background-color: #e0e0e4;
+		}
+
+		.contact h2 {
+			margin-top: 0;
+		}
+
+		main,
+		main > .col-1,
+		main > .col-2 {
+			height: calc(100vh - 104.39px);
+		}
+
+		.body .col-1 {
+			width: 20%;
+			float: left; 
+		}
+
+		.body .col-2 {
+			width: 80%;
+			float: right; 
+		}
+
+		.skills h2 {
+			margin-top: 1.5em;
+		}
+
+		.skills hr {
+			margin-bottom: 1.5em;
+		}
+
+		.skills article {
+			margin: 0.5rem 0;
+		}
+
+		.skills article p:last-child {
+			font-size: 4em; 
+			line-height: 0.5em; 
+			margin-left: -0.1em;
+		}
+
+		article {
+			margin-top: 1.5em;
+		}
+
+		.body .col-1 p {
+			line-height: 2.2rem;
+			margin-top: -0.2rem;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Roman Mirov</h1>
+		<h2>Full Stack Web Developer</h2>
+	</header>
+
+	<main>
+		<div class="col-1">
+			<section class="intro">
+				<p>Roman Mirov is a 16.5-year-old who is highly organized and passionate about making desktop and web apps and is seeking an internship or externship as a JavaScript developer. He taught himself to program at age 12. He may not have work experience due to his young age but he hopes that you see potential in him. </p>
+			</section>
+
+			<section class="body">
+				<h2>Projects</h2>
+				<hr>
+				<article>
+					<div class="col-1">
+						<p><b>2019-12 - present</b></p>
+					</div>
+					<div class="col-2">
+						<h3>Undisclosed Financial App</h3>
+						<p>Family business with the goal of streamlining the workflow of foreign exchange scalpers with an effective, minimalist desktop and web app. Employs the MERN stack and Electron to make it cross-platform. Moving parts include the client-side, server-side, database, file storage, and CDN. </p>
+					</div>
+				</article>
+				<article>
+					<div class="col-1">
+						<p><b>2019-11 - 2019-12</b></p>
+					</div>
+					<div class="col-2">
+						<h3>Personal Portfolio</h3>
+						<p>Minimalistic and responsive personal portfolio website to showcase projects. Server-side uses Django and client-side uses HTML, JS, and a CSS preprocessor.  </p>
+					</div>
+				</article>
+				<article>
+					<div class="col-1">
+						<p><b>2019-10</b></p>
+					</div>
+					<div class="col-2">
+						<h3>Blogging Platform Template</h3>
+						<p>Minimalistic interface to write blogs, follow authors, and see their articles on your dashboard. Server-side uses Django and client-side uses HTML, Bootstrap, and JS.</p>
+					</div>
+				</article>
+			</section>
+
+			<section class="body">
+				<h2>Education</h2>
+				<hr>
+				<article>
+					<div class="col-1">
+						<p><b>2017-08 - 2019-12</b></p>
+					</div>
+					<div class="col-2">
+						<h3>Campolindo High School</h3>
+						<p>Graduated early with a diploma-equivalent. <br>Averaged 3.5 GPA.</p>
+					</div>
+				</article>
+			</section>
+		</div>
+
+		<div class="col-2">
+			<section class="contact">
+				<h2>Contact</h2>
+				<hr>
+				<article>
+					<p><strong>Address</strong></p>
+					<p>6666 Mt Diablo Blvd Apt 6<br>Lafayette, CA 94549<br>USA</p>
+				</article>
+				<article>
+					<p><strong>Phone</strong></p>
+					<p><a href="tel:+18888888888">(888) 888-8888</a></p>
+				</article>
+				<article>
+					<p><strong>Email</strong></p>
+					<p><a href="mailto:email@example.com">email@example.com</a></p>
+				</article>
+				<article>
+					<p><strong>Website</strong></p>
+					<p><a href="https://www.romanjamesmirov.com">romanjamesmirov.com</a></p>
+				</article>
+				<article>
+					<p><strong>Stack Overflow</strong></p>
+					<p><a href="https://stackoverflow.com/users/12197948/roman">stackoverflow.com/users/12197948</a></p>
+				</article>
+				<article>
+					<p><strong>Github</strong></p>
+					<p><a href="https://github.com/romanjamesmirov">github.com/romanjamesmirov</a></p>
+				</article>
+				<article>
+					<p><strong>Linkedin</strong></p>
+					<p><a href="https://www.linkedin.com/in/romanjamesmirov/">linkedin.com/in/romanjamesmirov</a></p>
+				</article>
+			</section>
+
+			<section class="skills">
+				<h2>Programming Skills</h2>
+				<hr>
+				<article>
+					<p>MERN Stack</p>
+					<p>⋆⋆⋆</p>
+				</article>
+				<article>
+					<p>Electron</p>
+					<p>⋆⋆</p>
+				</article>
+				<article>
+					<p>HTML/CSS</p>
+					<p>⋆⋆⋆⋆⋆</p>
+				</article>
+				<article>
+					<p>Django</p>
+					<p>⋆⋆⋆</p>
+				</article>
+				<article>
+					<p>Heroku</p>
+					<p>⋆⋆⋆⋆</p>
+				</article>
+				<article>
+					<p>Git</p>
+					<p>⋆⋆⋆⋆⋆</p>
+				</article>
+			</section>
+		</div>
+	</main>
+</body>
+
+</html>
